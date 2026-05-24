@@ -36,10 +36,10 @@ spec:
         - containerPort: 11434
         resources:
           requests:
-            memory: "8Gi"    # 保证至少 2GB
+            memory: "7Gi"    # 保证至少 2GB
             cpu: "2"
           limits:
-            memory: "8Gi"    # 最多 4GB
+            memory: "7.7Gi"    # 最多 4GB
             cpu: "4"
         volumeMounts:
         - name: ollama-storage
